@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `fish` CASCADE;
+create table `fish` (
+	`id` INTEGER UNIQUE PRIMARY KEY AUTO_INCREMENT,
+	`age` INTEGER,
+	`fish_name` VARCHAR(255) NOT NULL, 
+	`species` VARCHAR(255)
+);
